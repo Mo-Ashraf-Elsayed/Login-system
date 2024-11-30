@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap framework CSS-->
+        <link rel="stylesheet" href="./style/bootstrap.min.css">
+        <!--my style-->
+        <link rel="stylesheet" href="./style/myStyle.css">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <section class="signCard">
+            <h1>Smart Login System</h1>
+            <input type="text" name="signUpName" placeholder="Enter your name"
+                required>
+            <input type="email" name="signUpEmail"
+                placeholder="Enter your email"
+                required>
+            <input type="password" name="signUpPass"
+                placeholder="Enter password"
+                required>
+            <div class="signUpResult"></div>
+            <button id="SignUpSubmit">Sign Up</button>
+            <p>You have an account? <a href="index.html">Sign In</a></p>
+        </section>
+        <!--sweet alert2 library-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/signUpApp.js"></script>
+    </body>
+</html>
